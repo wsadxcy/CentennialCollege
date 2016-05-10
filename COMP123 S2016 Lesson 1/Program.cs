@@ -10,6 +10,17 @@ namespace COMP123_S2016_Lesson_1
     {
         static void Main(string[] args)
         {
+            //call HellowWorld Method
+            HelloWorldToConsole();
+        }
+        //Description: This is my Hello,World! String
+        //Method:Hello World to Console
+        //return HellowWorldString
+        public static string HelloWorldToConsole()
+        {
+            string HelloWorldString = "Hello, World!";
+            Console.WriteLine(HelloWorldString);
+            return HelloWorldString;
         }
     }
 }
